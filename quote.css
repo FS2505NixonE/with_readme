@@ -1,0 +1,50 @@
+/* Apply Roboto Slab to all heading elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700; /* A bold weight works well for headlines */
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Apply Roboto Slab to the main navigation links */
+/* This targets the 'a' tags within the specific structure of your top navigation */
+#topMain .nav-main a {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500; /* A medium weight for readability in navigation */
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Ensure the slider's main headline also uses Roboto Slab */
+/* The 'font-roboto' class is already present on this element in your HTML */
+.tp-caption.font-roboto {
+    font-family: 'Roboto Slab', serif !important; /* Use !important to override Revolution Slider's inline or complex styles */
+    font-weight: bold; /* or a specific numeric value like 700, 800, 900 */
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Apply Roboto Slab to the filter links in the portfolio section */
+.mix-filter .filter a {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600; /* A slightly bolder weight for these buttons */
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* If the "Contact Us Today" header is an H2, it's covered by the h1-h6 rule.
+   However, if it has a specific class or ID, you might target it more directly if needed.
+   For example:
+#contact header h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+*/
+/* Apply a generic serif font to all paragraph elements */
+p {
+    font-family: serif;
+}
+/* Apply the specific blue color to all H2 headings */
+h2 {
+    color: #0a65a0;
+}
